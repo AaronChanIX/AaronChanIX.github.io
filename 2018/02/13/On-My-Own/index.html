@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+
+
+
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.0.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.0.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.0.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.0.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.0.4" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '6.0.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  
+  <meta name="keywords" content="随笔,转载," />
+
+
+<meta name="description" content="呼，今天在知乎看到了这篇文章。 我觉得它真真切切地把我当前关于人际关系的想法写了出来。我觉得我越是刻意地去融入主流，就越是觉得真正的自己和主流格格不入，就越是对这些事情感到厌弃。 我觉得我必须离开这该死的舒适区，才能跳出这个框架，从容地走出自己的道路。  作者：KnowYourself链接：https://zhuanlan.zhihu.com/p/33676931来源：知乎著作权归作者所有。商业转">
+<meta name="keywords" content="随笔,转载">
+<meta property="og:type" content="article">
+<meta property="og:title" content="On My Own">
+<meta property="og:url" content="http://aaronchanix.github.io/2018/02/13/On-My-Own/index.html">
+<meta property="og:site_name" content="AaronChanIX">
+<meta property="og:description" content="呼，今天在知乎看到了这篇文章。 我觉得它真真切切地把我当前关于人际关系的想法写了出来。我觉得我越是刻意地去融入主流，就越是觉得真正的自己和主流格格不入，就越是对这些事情感到厌弃。 我觉得我必须离开这该死的舒适区，才能跳出这个框架，从容地走出自己的道路。  作者：KnowYourself链接：https://zhuanlan.zhihu.com/p/33676931来源：知乎著作权归作者所有。商业转">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://pic2.zhimg.com/80/v2-b5f55626f59744510300374649280f73_hd.jpg">
+<meta property="og:image" content="https://pic2.zhimg.com/80/v2-cb2e684cbcf08491c0710e350a899fc5_hd.jpg">
+<meta property="og:image" content="https://pic3.zhimg.com/80/v2-ccf03d5b456850c2c58ed89005de3cb8_hd.jpg">
+<meta property="og:updated_time" content="2018-02-14T08:28:36.635Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="On My Own">
+<meta name="twitter:description" content="呼，今天在知乎看到了这篇文章。 我觉得它真真切切地把我当前关于人际关系的想法写了出来。我觉得我越是刻意地去融入主流，就越是觉得真正的自己和主流格格不入，就越是对这些事情感到厌弃。 我觉得我必须离开这该死的舒适区，才能跳出这个框架，从容地走出自己的道路。  作者：KnowYourself链接：https://zhuanlan.zhihu.com/p/33676931来源：知乎著作权归作者所有。商业转">
+<meta name="twitter:image" content="https://pic2.zhimg.com/80/v2-b5f55626f59744510300374649280f73_hd.jpg">
+
+
+
+
+
+
+  <link rel="canonical" href="http://aaronchanix.github.io/2018/02/13/On-My-Own/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+  <title>On My Own | AaronChanIX</title>
+  
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"> <div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">AaronChanIX</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Aaron Chan's Blog</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+  
+
+
+
+ </div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://aaronchanix.github.io/2018/02/13/On-My-Own/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Aaron Chan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://y.gtimg.cn/music/photo_new/T002R300x300M000001HU79H0BHu6T.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="AaronChanIX">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">On My Own</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-13T22:56:50+08:00">2018-02-13</time>
+            
+
+            
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/转载/" itemprop="url" rel="index"><span itemprop="name">转载</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>呼，今天在知乎看到了这篇文章。</p>
+<p>我觉得它真真切切地把我当前关于人际关系的想法写了出来。我觉得我越是刻意地去融入主流，就越是觉得真正的自己和主流格格不入，就越是对这些事情感到厌弃。</p>
+<p><strong><em>我觉得我必须离开这该死的舒适区，才能跳出这个框架，从容地走出自己的道路。</em></strong></p>
+<hr>
+<p><em>作者：KnowYourself<br>链接：<a href="https://zhuanlan.zhihu.com/p/33676931" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/33676931</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</em></p>
+<p><em>正文：</em></p>
+<h2 id="你好，我看过你的校内网和QQ空间"><a href="#你好，我看过你的校内网和QQ空间" class="headerlink" title="你好，我看过你的校内网和QQ空间"></a>你好，我看过你的校内网和QQ空间</h2><p>前两天偶然打开了一个骨灰级社交软件——人人网，结果引发了办公室同事对各自的人人、空间、博客的挖坟。大家纷纷感慨，原来当初的自己会写这么多长篇大论的日志，有这么多的真情实感需要抒发，现在则仿佛是表达能力退化，只会在朋友圈发一些不痛不痒的内容。</p>
+<p>这个话题引发了热烈的讨论和思考。当晚，我们也在KY的粉丝群里问了大家一个问题：<strong>打开你5年或者10年前的社交网络，你都在网上写些什么，和朋友聊些什么？</strong>现在你又会在社交网络上分享些什么？</p>
+<p>大部分人都有着相似的体验。在互联网刚刚出现、普及的那几年里，我们格外热衷于自我表达：写看过的电影，记录一段时间的喜怒哀乐，和网线那端的陌生人倾诉生活中的烦恼和感触，或者在论坛里畅谈对某个事件的看法。</p>
+<p><img src="https://pic2.zhimg.com/80/v2-b5f55626f59744510300374649280f73_hd.jpg" alt="pic1"></p>
+<p>你还记得在这些熟悉的界面写下的心情吗？</p>
+<p>而现在，很多人说自己已经不再表达：</p>
+<p><em>“以前敢任性地晒各种情绪，满屏的朋友与笑脸，如今只剩下工作，和朋友间礼貌的点赞与试探性的问候。”</em>（匿名）</p>
+<p><em>“七年前，在人人网上，我每天会更新一条关于暗恋的男孩子的状态。比如，‘第三十五天晴冷篮球场总是让人愉悦的地方可以肆无忌惮地看你。’以为只是自己默默坚持的方式，却没想到其实有很多他的同学会偷偷来看我的更新。甚至毕业之后才知道，许多低年级的同学一直在人人上关注着我那段感情追逐，默默的支持着我。而现在，会分享一些拍的很好看的风景照，或一些足够隐晦、只有少数人才能看懂的东西。越来越渴望自己从人们的视线里消失了。”</em>（凛）</p>
+<p>也有人说，现在还会真情实感，但是转移到了别人看不见的地方：</p>
+<p><em>“最真情实感和情绪化的内容，不想、不敢让身边朋友知道的内容，都发在一个唯一粉丝是新手指南的微博小号上。”</em>（阿布贾）</p>
+<p>还有人总结说，社交网络的主要目的早已不是社交：</p>
+<p><em>“每次发之前都会思索下该不该发，发了该屏蔽那些人。现在的空间和朋友圈越来越丧失朋友的互动性，更多地成了一个构建人设的渠道。”</em>（圆圆）</p>
+<p>那么，是什么使我们失去了表达？我们失去的究竟是表达欲本身，还是表达的场所呢？</p>
+<p><img src="https://pic2.zhimg.com/80/v2-cb2e684cbcf08491c0710e350a899fc5_hd.jpg" alt="pic2"></p>
+<hr>
+<h3 id="当网络从私密空间变成公共空间：我们开始自我审查"><a href="#当网络从私密空间变成公共空间：我们开始自我审查" class="headerlink" title="当网络从私密空间变成公共空间：我们开始自我审查"></a>当网络从私密空间变成公共空间：我们开始自我审查</h3><p>“自我表达”的意思不仅仅是“说话”。根据韦氏词典的定义，它指的是<strong>“让自己被看到或者听到”：表达自己内心的想法和感受，让他人知道自己是个什么样的人，特别是通过一些艺术性的手段，如写作、绘画等等。</strong></p>
+<p>自我表达往往是<strong>在我们认为是安全的情境下才会发生</strong>：当我们感到诉说的对象、所处的环境都是令人放心的时候，才更容易打开自己。初接触网络时之所以乐于表达，也正是因为<strong>那时的网络还是一个匿名性、私密性很高的场所，我们能够借此逃离现实，安全地表达自己。</strong></p>
+<p>但变化已经悄悄发生：<strong>网络从一个相对私密、封闭的空间，变成了比三次元世界更加开放、透明的公共空间。</strong></p>
+<p>如今的社交网络，被一些学者比作英国哲学家杰里米·边沁于1791年设计的“全景式监狱”。这个概念也因为福柯的《规训与惩罚》一书广为人知。<strong>“全景式监狱”是一座环形建筑，中心有一座高塔，监狱的管理者只需待在高塔上便可以监视到所有囚室。在这种监狱中，犯人处于持续的、无时无刻被“监视”的状态中，而不像以往的监狱那样、只在出操、吃饭等特定的时间段里被看到。</strong></p>
+<p>虽然边沁的监狱在那个年代只停留在蓝图里，它却在互联网时代变成了现实。<strong>实名制代替了匿名性，身份信息在各个APP之间交错链接，使我们每个人都好像活在一座圆形的监狱中，它甚至比在现实中能够被观看的监狱更加可怕。</strong></p>
+<p>研究者Danah Boyd(2007)将如今的社交网络称为“有介质的公共空间”，它与“无介质的公共空间”（现实中的公共空间）相比，拥有4种特性：</p>
+<ul>
+<li><strong>永久存在</strong>——你在15岁那年发过的感叹，很有可能在30岁这年仍然存留在网络上。我们都失去了“被遗忘的权利”。</li>
+<li><strong>可搜索性</strong>——只需轻轻敲击几下键盘，你就能完成对一个人的了解。</li>
+<li><strong>可复制性</strong>——定向发送的图片、一对一的聊天记录，也可以迅速地被复制粘贴，或者二次修改后传播。</li>
+<li><strong>隐形观众——在现实的空间中，你至少能对于谁在观看、聆听你有所感知。而在网络上，你永远都想象不到有谁在暗中观察你。</strong></li>
+</ul>
+<p>她认为，正是这些社交网络所具有的独特属性，使得它已经成为比现实更开放和不安全的空间。一张图片、一段文字可能带来的风险，甚于一场几百人规模的公开演讲。</p>
+<p>福柯曾分析说，对于犯人来说，“全景式监狱”的可怕之处并不在于监视本身，而在于采光的设计所造成的心理影响。每个囚房都有两扇窗户，一扇对准中心的瞭望塔，一扇让阳光照进囚房。这样的设计，让瞭望塔上的人可以看清囚房里的一举一动，而处于逆光中的犯人，无法看到高塔中是否有人正在看着自己。因而他们便始终提心吊胆，自发地接受规训、限制自己的行为。</p>
+<p><strong>在今天，互联网构建起的巨大的圆形监狱里，千千万万的隐形观众自发成为了新的“监狱管理者”，给我们每个人都带来了“始终被观看”的恐惧。</strong></p>
+<p>由此，<strong>我们忍不住像全景式监狱里的犯人一样开展自我审查，倾向于选择更加安全的表达和沟通方式。</strong>我们与那种说出内心的真实感受、让他人认识自己的“自我表达”已经相去甚远了。</p>
+<p><img src="https://pic3.zhimg.com/80/v2-ccf03d5b456850c2c58ed89005de3cb8_hd.jpg" alt="pic3"></p>
+<hr>
+<h3 id="我们更方便地修改“虚拟自我”却找不到真实的朋友和爱人"><a href="#我们更方便地修改“虚拟自我”却找不到真实的朋友和爱人" class="headerlink" title="我们更方便地修改“虚拟自我”却找不到真实的朋友和爱人"></a>我们更方便地修改“虚拟自我”却找不到真实的朋友和爱人</h3><p>《群体性孤独》的作者SherryTurkle是另一个以“反社交网络”著称的学者。在她看来，<strong>社交网络和一系列工具的发展，纵容了我们每个人的脆弱和退缩，使我们越来越远离真实的人际关系。</strong></p>
+<p><strong>现代化的工具为我们提供了安全的藏身之所，帮助我们避免“暴露弱点”。</strong>美图软件已经足够发达且成为标配，你可以很方便地展现一个滤镜下的“虚拟自我”；我们有充分的工具帮助，使我们在朋友圈里展示出“别人喜欢看到”的样子。</p>
+<p>在没有网络的年代，和他人亲近、建立关系的过程是循序渐进发生的。我们在不断的交往和试探中，越来越多地暴露自己，展示出双方真实的状态。当信任逐渐建立起来时，我们和另一个人之间的链接便产生了。</p>
+<p><strong>而互联网刚刚出现的时候，交朋友一度变得更加容易。在那个网络空间足够安全的年代，我们可以跳过现实中彼此试探、建立信任的环节，在第一次聊天时便向陌生人敞开心扉，通过信息和情感的交换来找到一些心灵契合的朋友。</strong></p>
+<p>但随着网络空间的公共化，这种可能性再次消失。Turkle的一个采访对象提到，<strong>互联网使得人们失去了“消极地做自己”的能力。所谓“消极地做自己”，就是不隐藏、不包装，用一种真实的、不加编辑的状态面对他人——就像在网络刚刚成为沟通工具的时候，我们对很多陌生人展示的那样。</strong></p>
+<p>如今人人都在积极地经营“虚拟自我”，深度的交流却不复存在。<strong>一条状态可能收到100次点赞，但陌生人依然是陌生人。</strong></p>
+<p><strong>工具还进一步帮助我们“解决”了对爱的渴望。</strong>每个人都渴望亲密关系，但现实中的亲密关系中承载了太多的风险。我们转而与虚拟老公、电子宠物建立着更加安全的“亲密关系”，通过技术使自己体验到被关心和陪伴的幻觉。</p>
+<p><strong>“我们借助社交软件、虚拟机器人找到和别人保持联系的感觉，并且可以舒服地控制这种联系。但问题在于，其实我们并没有这么舒服。”</strong>Turkle说。</p>
+<hr>
+<h3 id="碎片化的人生里，你还在保持思考吗？"><a href="#碎片化的人生里，你还在保持思考吗？" class="headerlink" title="碎片化的人生里，你还在保持思考吗？"></a>碎片化的人生里，你还在保持思考吗？</h3><p>现代人推崇“多任务管理”。十几年前的大学课堂里，学生拿着纸质笔记本听讲；现在的课桌上则摆满了笔记本电脑。一边参加会议，一边查收邮件、回复工作信息也似乎成为司空见惯的行为，仿佛不这么做反而是不够高效的表现。</p>
+<p>与此同时，无处不在的推送、弹窗，都有可能在任何时候将我们宝贵的注意力吸引走。（比如，在我写作这篇文章的过程里，也忍不住停下来超过五次，有时是突然弹出的微信消息，或者是查找资料的时候被其他的新闻吸引了注意。）</p>
+<p><strong><em>注意力被切分地四分五裂，表达欲似乎也随之被碎片化了。有时候忽然有想要表达的冲动，也会很快被八卦消息、微信弹窗、app推送打扰。等回过神来，刚刚想要表达的东西似乎已经消失了：情绪消失了，想写下来的文字也已经忘了。</em></strong></p>
+<p>粉丝群的讨论里，我们也问大家：<strong>你还会在网络上“真情实感”吗？还会继续认真地思考和表达真实的自己吗？</strong></p>
+<p>粉丝们说：</p>
+<p><em>“不太会在开放或半开放的网络上表达了。一来现在信息过载，并不能收到理想的回馈。二来更想把那些心事说给更重要的人听，通常都是约出来，线下一对一聊天。总觉得把它们随意分享在网络上，这些信息就变得不再私密，我也失去了和更珍贵的人分享它们的机会。” </em>（Phoebe）</p>
+<p><em>“在网络上还能交到一些朋友，不过不是以自我表达的方式，而是通过一些间接的方式，比如一起追同一个爱豆，或者玩同一个游戏，久而久之，可能就和聊得来的人成为了朋友。毕竟爱好还是挺能够反映一个人的特质的，也容易找到和自己同样的人。但有时候也不知道这样的朋友算不算是真正的朋友，因为即便关系很近也会有所防备，不太会说到非常私人的事情。” </em>（柿子）</p>
+<p>在Turkle 看来，网络对我们的影响在很多方面都是矛盾的。</p>
+<p><strong>我们能够操纵一个与自己完全不同的虚拟化身，又难以使自己真实的过去被遗忘。<br><br>我们有无数种方式联系到远隔重洋的人，但和亲人坐在一起、各自玩着手机时，却又比任何时候都要遥远。<br><br>我们害怕即时沟通，躲进角色扮演的游戏中，但又对“车马很慢、书信很远”的古老世界表现出怀旧和乡愁。</strong></p>
+<p>作为经历过“无网络时代”，也见证了整个互联网兴起和发展的人，我也常常陷入类似的矛盾中。我抱怨网络带来的种种隐忧，抱怨被碎片蚕食的时间和精力，但又不得不承认，离开它仅仅几分钟时间也会令自己心烦意乱。</p>
+<p>不过，今年我的想法是，尽量减少一些“表演”，从那个貌似安全的舒适区里走出来，多尝试一些真实的体验和关系。你呢？</p>
+<p><em>KY作者 / 小汤圆</em></p>
+<p><em>编辑 / KY主创们</em></p>
+<p>References:</p>
+<p>Boyd, D. (2007). Social network sites:Public, private, or what. Knowledge Tree, 13(1), 1-7.</p>
+<p>Turkle, S. (2017). Alone together: Why we expect more from technology and less from each other. Hachette UK.</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/随笔/" rel="tag"><i class="fa fa-tag"></i> 随笔</a>
+          
+            <a href="/tags/转载/" rel="tag"><i class="fa fa-tag"></i> 转载</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/02/11/Hello-Freedom/" rel="next" title="Welcome Home">
+                <i class="fa fa-chevron-left"></i> Welcome Home
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="https://y.gtimg.cn/music/photo_new/T002R300x300M000001HU79H0BHu6T.jpg"
+                alt="Aaron Chan" />
+            
+              <p class="site-author-name" itemprop="name">Aaron Chan</p>
+              <p class="site-description motion-element" itemprop="description">It's better to burn out than to fade away.</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">5</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/aaronchanix" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:AaronChanIX@foxmail.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="http://wpa.qq.com/msgrd?v=3&uin=2691907354&site=qq&menu=yes" target="_blank" title="QQ"><i class="fa fa-fw fa-qq"></i>QQ</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://www.zhihu.com/people/kuai-le-xian-yu-mei-yi-tian" target="_blank" title="知乎"><i class="fa fa-fw fa-globe"></i>知乎</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#你好，我看过你的校内网和QQ空间"><span class="nav-number">1.</span> <span class="nav-text">你好，我看过你的校内网和QQ空间</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#当网络从私密空间变成公共空间：我们开始自我审查"><span class="nav-number">1.1.</span> <span class="nav-text">当网络从私密空间变成公共空间：我们开始自我审查</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#我们更方便地修改“虚拟自我”却找不到真实的朋友和爱人"><span class="nav-number">1.2.</span> <span class="nav-text">我们更方便地修改“虚拟自我”却找不到真实的朋友和爱人</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#碎片化的人生里，你还在保持思考吗？"><span class="nav-number">1.3.</span> <span class="nav-text">碎片化的人生里，你还在保持思考吗？</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+	 
+	 </br>
+	 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=419238636&auto=0&height=66"></iframe>
+	 
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+  本站访客数:<span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
+
+<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Aaron Chan</span>
+
+  
+
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a> v6.0.4</div>
+
+
+
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">|&emsp;博客全站共4.6k字</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.0.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.0.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.0.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.0.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.0.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.0.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.0.4"></script>
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+<div id="hexo-helper-live2d">
+  <canvas id="live2dcanvas" width="150" height="300"></canvas>
+</div>
+<style>
+  #live2dcanvas{
+    position: fixed;
+    width: 150px;
+    height: 300px;
+    opacity:0.7;
+    right: 0px;
+    z-index: 999;
+    pointer-events: none;
+    bottom: -20px;
+  }
+</style>
+<script type="text/javascript" src="/live2d/device.min.js"></script>
+<script type="text/javascript">
+const loadScript = function loadScript(c,b){var a=document.createElement("script");a.type="text/javascript";"undefined"!=typeof b&&(a.readyState?a.onreadystatechange=function(){if("loaded"==a.readyState||"complete"==a.readyState)a.onreadystatechange=null,b()}:a.onload=function(){b()});a.src=c;document.body.appendChild(a)};
+(function(){
+  if((typeof(device) != 'undefined') && (device.mobile())){
+    var trElement = document.getElementById('hexo-helper-live2d');
+    trElement.parentNode.removeChild(trElement);
+    return;
+  }else
+    if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
+  loadScript("/live2d/script.js", function(){loadlive2d("live2dcanvas", "/live2d/assets/wanko.model.json", 0.5);});
+})();
+</script>
+
+</body>
+</html>
+<script type="text/javascript" src="/js/src/love.js"></script>
