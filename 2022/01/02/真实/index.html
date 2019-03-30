@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+
+
+
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.0.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.0.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.0.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.0.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.0.4" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '6.0.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+<meta name="description" content="引言 “你的物理学是不列，而英文学和国文学都是满分，如此天资，当初为什么不念文科，而偏要念实科呢？”“因为最好的学生都读实科。”“你求学的目的是什么啊？”“我只知道不管我将来做什么，在这个年纪，学习，读书都是对的，我何用管我做什么，我每天把自己交给书本，就有种踏实。”“但是，你还忽略了一件事——真实。人把自己置身于忙碌之中，有一种麻木的踏实，但丧失了真实，你的青春也不过只有这些日子。”“什么是真实">
+<meta property="og:type" content="article">
+<meta property="og:title" content="真实">
+<meta property="og:url" content="http://aaronchanix.github.io/2022/01/02/真实/index.html">
+<meta property="og:site_name" content="AaronChanIX">
+<meta property="og:description" content="引言 “你的物理学是不列，而英文学和国文学都是满分，如此天资，当初为什么不念文科，而偏要念实科呢？”“因为最好的学生都读实科。”“你求学的目的是什么啊？”“我只知道不管我将来做什么，在这个年纪，学习，读书都是对的，我何用管我做什么，我每天把自己交给书本，就有种踏实。”“但是，你还忽略了一件事——真实。人把自己置身于忙碌之中，有一种麻木的踏实，但丧失了真实，你的青春也不过只有这些日子。”“什么是真实">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-03-30T18:42:01.044Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="真实">
+<meta name="twitter:description" content="引言 “你的物理学是不列，而英文学和国文学都是满分，如此天资，当初为什么不念文科，而偏要念实科呢？”“因为最好的学生都读实科。”“你求学的目的是什么啊？”“我只知道不管我将来做什么，在这个年纪，学习，读书都是对的，我何用管我做什么，我每天把自己交给书本，就有种踏实。”“但是，你还忽略了一件事——真实。人把自己置身于忙碌之中，有一种麻木的踏实，但丧失了真实，你的青春也不过只有这些日子。”“什么是真实">
+
+
+
+
+
+
+  <link rel="canonical" href="http://aaronchanix.github.io/2022/01/02/真实/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+  <title>真实 | AaronChanIX</title>
+  
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"> <div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">AaronChanIX</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Aaron Chan's Blog</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+  
+
+
+
+ </div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://aaronchanix.github.io/2022/01/02/真实/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Aaron Chan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://y.gtimg.cn/music/photo_new/T002R300x300M000001HU79H0BHu6T.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="AaronChanIX">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">真实</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-01-02T00:00:01+08:00">2022-01-02</time>
+            
+
+            
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><blockquote>
+<p>“你的物理学是不列，而英文学和国文学都是满分，如此天资，当初为什么不念文科，而偏要念实科呢？”<br>“因为最好的学生都读实科。”<br>“你求学的目的是什么啊？”<br>“我只知道不管我将来做什么，在这个年纪，学习，读书都是对的，我何用管我做什么，我每天把自己交给书本，就有种踏实。”<br>“但是，你还忽略了一件事——真实。人把自己置身于忙碌之中，有一种麻木的踏实，但丧失了真实，你的青春也不过只有这些日子。”<br>“什么是真实？”<br>“你看到什么，听到什么，做什么，和谁在一起，有一种从心灵深处满溢出来的不懊悔，也不羞耻的平和与喜悦。”</p>
+</blockquote>
+<hr>
+<h2 id="前传：在人间"><a href="#前传：在人间" class="headerlink" title="前传：在人间"></a>前传：在人间</h2><h3 id="2018年4月20日-星期五-平庸与卓越"><a href="#2018年4月20日-星期五-平庸与卓越" class="headerlink" title="2018年4月20日 星期五 平庸与卓越"></a><em>2018年4月20日 星期五 平庸与卓越</em></h3><p>“平庸，就是在你失去追求卓越的信念的那一个瞬间。”</p>
+<p>对于此时的我来说，我能看到的卓越便是可望而不可及的、闪闪地发着诱人金光的省实。</p>
+<p>可是，如果我是个广州考生呢？那我便可以轻松地进入这样一个充满新鲜空气的地方，那我便可以不用承担可能失去次理想学校普通生录取资格的风险报考省实，那我便可以依靠中考成绩排名投档重点班。</p>
+<p>由此看来，相对平庸，是在你被创造的那一刻就决定的了。一切都是被设定好的。其实不难看出，追求卓越是无止境的，省实之外有北京的高中，更有国外数不胜数的优质高中，有着更多更纯粹的象牙塔等你去探寻。等你有条件够到了留学的台阶，便又开始焦虑该选择哪一所外国高中了。这就是现实。这就是客观现象。卓越是个无底洞，显而易见，焦虑也是如此。</p>
+<p>盲目追求表面的卓越，无异于无头苍蝇一般地低效努力去做无用功。因此，了解自身所能够到和所应达到的高度，用更多的东西来填充内心的卓越，在内心开辟属于自己的精神象牙塔，同时将节省出来的资源用在刀刃上，不断提高自己，才应该是追求人生卓越的最好状态。</p>
+<p>如此来说，相对的平庸对所有人来说都无法避免，而放弃追求卓越，才会是把自己置于绝对平庸的死棋。而有一种永恒的、超越一切的、永不褪色的卓越信念，便是高于表象高于现实的对人类文明对世界真理的探索。</p>
+<p>四月二十日凌晨。</p>
+<h3 id="2018年5月6日-星期一-答案"><a href="#2018年5月6日-星期一-答案" class="headerlink" title="2018年5月6日 星期一 答案"></a><em>2018年5月6日 星期一 答案</em></h3><p>愈来愈觉得自己着实是活在一个臭水沟里。现在的感觉似是一种平淡的悲哀，有一种隐隐的心痛。</p>
+<p>看得越多，便越是觉得他们死得越透，一切坏的标签似乎都吻合了，一种后知后觉的愚蠢溺爱带着一点对附属品的无奈，令我恶心。</p>
+<p>我又能怎么办？</p>
+<p>我想即使有哪一天我成功了，我也绝对不会感谢我的父母。对不起，你们真的没有给我什么。唯有的那一点美好，是记忆中的朦朦胧胧的父亲，用几支牙签教我算术，笨拙地在纸上解着未知数是苹果香蕉和菠萝的三元一次小学方程题，还有他挠着头跟我说我也不知道银河系是什么的样子。从那时起，我就清楚，只有浩如烟海的书本，才是我的家。[ 编时补充：我也逐渐开始明白，我不是他们的儿子，我是互联网的儿子。只有它才是将我拽出数字鸿沟的silver lining。]</p>
+<p>我好几次幻想着，自己能够拥有一个个人工作室，里面是一套化学仪器和常用的试剂，当然还要有性能好的一套电脑，有一个按右键的时候左键不会失灵的鼠标，配上一套Adobe的软件，那是我的一点点的奢求。我当然知道这不实际，倒也不是刚需，可我却也知道许多人把这个当做起点；如果回到四十年前，我一定会打他两巴掌然后把他赶到深圳去。</p>
+<p>他们又能怎么办？</p>
+<p>可是，我想要的并不是他们来满足我这些奢求。你知道吗？一些平常人看来很正常的东西，一些活人应该有的特点，在我看来要求他们做到，实在是妄想天开。这是一种，哀其不幸怒其不争的感觉？所有的一些“双标”“反智”“愚昧”“麻木”之类的标签贴在他们身上是那么合身，似乎便是为他们量身定做似的。像是两只，失去了所有活力、不思进取的，却又还死死抱紧自己三分两亩地、叫喊着“从来如此”的，两只，蝼蚁——不为过。</p>
+<p>我们又能怎么办？</p>
+<p>我干呕几声，呼出来的却都是人肉的味道——着实瘆人。啊哈，现在也许知道，为什么我面对作文题总是无话可写了；也许我的家庭，我的生活，并没有他们所想要的正能量。以至于我在什么文学作品里面看到父母家庭之类的，都会马上把它扔开，这是一种，本能的厌恶。但，只有负到极点，才会带着嘶吼的声音，用干哑的喉咙，呐喊出真的正的能量来。这个才是我努力的原因，这个才是我可能成功的唯一一点。</p>
+<p>正视，要正视！这样已经够了。</p>
+<p>但愿我能到达无穷的远方的远方，去救救更多的孩子，去探索更奥秘的宇宙真理。</p>
+<p>这便是我所追寻的永恒。</p>
+<p>“为何这么伟大，如此感觉不到。”</p>
+<h3 id="2018年6月20日-星期三-中考前一些突发的想法"><a href="#2018年6月20日-星期三-中考前一些突发的想法" class="headerlink" title="2018年6月20日 星期三 中考前一些突发的想法"></a><em>2018年6月20日 星期三 中考前一些突发的想法</em></h3><h4 id="一"><a href="#一" class="headerlink" title="一"></a>一</h4><p>只要有选择题的考试，就会存在运气成分左右排名；只要有主观题的考试，就会存在主观偏差带来的不公平。而这种应尽量避免出现的偏颇，可能会产生较大的影响。而非选择题的客观题所占的比例在大多数科目考试中都是占少数的（甚至没有），若是去除前两者，就无异于删除考试制度了。目前的教育制度需要改革，这是公认的，而需要如何改，我目前嗅到的一点苗头告诉我，应该在人才的培养与选拔（考试）制度上来一次彻底的大换血，从根基上拔除问题。</p>
+<h4 id="二"><a href="#二" class="headerlink" title="二"></a>二</h4><p>我对冲击状元这种虚名不带有很大的热情，因为只要是真正的尖子，都会认为这一个排名并不能说明什么事情，主要是做一个大体的区间性排位。中考前的一两个月里面，我感觉回到学校不是在上学，像是在上分。在学校我已经不能接收到新知识或是新思想了，回到学校的目的从“学习知识、提升自己”变成了“提高分数、应对考试”，这已经偏离了我的初心。我目前所做的一切都是为了不断提升自我，而充实自身的最终目的便是人生的理想与意义——为人文与科技而奋斗。这些以前理应说过，此处略去不表。几个月的消磨下来，我已经快要失去那种对学习新知识的热情与渴望了。事到如今我才切身地体会到那种被剪掉身上隐形翅膀的感觉，而且最瘆人的是，那对翅膀像是被温水煮青蛙一般煮掉的。这到底是谁的过错与悲哀呢？</p>
+<h4 id="三"><a href="#三" class="headerlink" title="三"></a>三</h4><p>我愈发觉得自身无法与大多数的人建立“强联系”（Strong Connection）。[ 编时修正：Mentally Strong Tie]这是我独创的一个词汇，算是断章取义出来的，也就是将物理的“强相互作用力”与“弱相互作用力”同心理学上的各种“联系”相结合的一个产物。我觉得究其原因在于心理学上热门的“原生家庭”问题。讲到中考前，我逃了一天课独自去了白云山登顶，算是完成了自己的一个小目标。略去其中后期和回来后的一些不愉快的经历，总的来说算是令我感觉“做成了点什么”（虽然我在写这段文字的时候感觉到胸闷加剧）。其实早在四五年前我就已经清楚认识到我的所有不快，所有负面的东西（包括但不限于情绪）都是来源于我的家庭，这里不作展开讨论。回归主题，我认为每个人生来具有的“强联系”是亲情关系，但是很抱歉，我没有。我曾经想要去建立，后来发现我做不到，对方也做不到，那倒不如就“虚伪”一点（这里也不展开），维持在中性的弱联系上好了。我所想的强联系应该是要分为正面、负面与中性的，举例来说，正面是真正地互相理解与帮助等，负面是憎恨一个人到极点或是对一个人怀有强烈的愧疚感，中性便是常见的合作与竞争关系。我已经在数个月内三次看见他露出那原始丑陋凶残的爪牙，这已经让我对建立强联系不再抱任何希望。也许从一开始建立强联系就是一条错误的道路。这又是谁的过错与悲哀呢？</p>
+<h4 id="四"><a href="#四" class="headerlink" title="四"></a>四</h4><p>其实我很早以来就一直认为人类是可以永生甚至必须永生的（社会伦理问题略去不表）。最近阅读了《未来简史》发现了一些作者与我相通的观点，其中对“科技人文主义”的延伸探讨让我有了醍醐灌顶的感觉，让我已经放下许久的一些奇思妙想与激情被重新点燃起来。但往后一下那是精英阶层的事情，不免有些感叹与悲哀，不过那倒是更让我激起“真正提升自己”的欲望，这样才能把未来掌握在自己手里。能身处这一十字路口，或是更有幸见证那一刹那，那便是最大的幸福了。也许，所有的一切让我的“人性”被削弱而“理性”被提升，所以我或许在旁人看来少了那么几分对生命的敬畏，其实只有无惧才刚，无欲无求只能让自己用平凡可贵作为碌碌无为的借口，这里不多提。</p>
+<h4 id="五"><a href="#五" class="headerlink" title="五"></a>五</h4><p>最后算是点点题目，说是突发的想法，倒不如说是沉淀已久的输入加上不断的内部搅拌终于产生了向外输出的井喷。要是沉淀的起源，那也许得说到那星星之火去了。与我无关的事情又能如何，踏实地提升自己，是面对未知的最好办法。</p>
+<p>愈发觉得：活着真好啊，活着就有无限的可能性。</p>
+<p>六月二十日凌晨一点四十三分到两点二十分共三十七分钟。</p>
+<hr>
+<h2 id="高一：大梦一场"><a href="#高一：大梦一场" class="headerlink" title="高一：大梦一场"></a>高一：大梦一场</h2><h3 id="2018年9月1日-星期六-军训总结"><a href="#2018年9月1日-星期六-军训总结" class="headerlink" title="2018年9月1日 星期六 军训总结"></a><em>2018年9月1日 星期六 军训总结</em></h3><h4 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h4><p>不是语文老师当班主任的感觉真好，这样就不用“酸痛从神经末梢一阵阵袭来”，也不用“我的双腿像灌了铅一样沉重”了。这篇说是军训总结，倒不如说是五天在一中和同学们生活的总结吧。</p>
+<h4 id="就像一所大学"><a href="#就像一所大学" class="headerlink" title="就像一所大学"></a>就像一所大学</h4><p>没错，一中给我的感觉就像是一所微缩型的大学，无论是里面的人，还是里面的制度，一切都那么真实。</p>
+<p>先来说说这几天看到的人，用四个字来概括，便是“高下立判”。大部分人都从言谈举止之中，表现出了自己鲜明独特的人格特点，就像所有人一样，良莠不齐。但是通过行为之间的对比，人格魅力的高下立马凸显出来：当有人以伤病为借口在升起的国旗下、在奏响的国歌中、在千人的目光里仍旧坐在一旁用帽子扇风的时候，有人面对国旗带病肃立；当有人在队伍中随意扭动的时候，有人纹丝不动地站好军姿；当有人在吃饭时大喊大叫用力拍桌子的时候，有人在一旁捡起自己桌子底下的垃圾；当有人一日三餐全是泡面的时候，有人吃着一顿六块五毛的饭菜；当有人低着头缩着身子沉默的时候，有人号召组织起大家来……最让我难忘的还是那几位带着伤病却和我们一起站军姿、练动作的同学。</p>
+<p>有太多太多这样的例子，甚至数都数不完，也肯定会遗忘掉一些细节，但所有的这些，便是责任感、是羞耻心、是强大的心理素质、良好的行为习惯，也许这就叫谭校长说了一遍又一遍的“优质的教育”。说来惭愧，初中以来一直没有培养自己的才艺能力，看到上台表演的同学，赞叹敬佩之余还有些许羡慕，也许这就是我的差距所在。还记得来一中报到前看过今年清华大学的招生宣传片，里面提了几个问题“你是否走出国门看过更大的世界”“你的父母是否培养过你的兴趣爱好”等等（这个几分钟的片子连续性比较强，三言两语概括不全，有兴趣可以到清华大学官网/哔哩哔哩视频网找找看），当时令我脊背发凉的是，我的答案几乎全是“否”，但令我对高中生活充满憧憬的是，视频中第二阶段的几个问题“在大学三年你是否找到了你自己所热爱的事业”“你是否通过与同学合作完成了自己做不到的事情”，我有信心在三年后挺起胸脯大声说“是”。</p>
+<p>我想，一中的制度，会塑造更多坚定而自信的一中人。刚了解到这些的时候，霎时间觉得选择太多、约束太少，一下子竟然无所适从，后来转念一想，这恰好是一所优秀高中所应该做到的：为学生提供无限的可能性，这也是大学和社会的常态：为自己的选择负责。窝在宿舍打四年游戏混学分的大学生，也就像躲在课桌底下玩三年手机的高中生一样，终将虚度光阴、碌碌无为。</p>
+<p>没想到，舍长在军训期间借给我看的一本科幻小说《球状闪电》竟然触动了我的心，重新唤起了我对基础科学研究的信念，依稀记得里面有一句“理想主义者和玩世不恭的人都觉得对方很惨”，我想，我不要走向理想主义或是玩世不恭的极端，为自己的理想一点一点的脚踏实地努力，才是应有的姿态。</p>
+<h3 id="2018年11月16日-星期五-期中考总结：选择"><a href="#2018年11月16日-星期五-期中考总结：选择" class="headerlink" title="2018年11月16日 星期五 期中考总结：选择"></a><em>2018年11月16日 星期五 期中考总结：选择</em></h3><h4 id="1-文还是理？这是个问题。"><a href="#1-文还是理？这是个问题。" class="headerlink" title="1.文还是理？这是个问题。"></a>1.文还是理？这是个问题。</h4><p>虽说如今已经没有分文理科这种说法了，但我想，从专业选择和六选三来说，确定一个人的“文理型”还是很有必要的。初中一直以来，我就觉得自己应该是“理科型”。于是一段前我也给自己选好了大致的科目：物化政。结果一段出来最好的三科却是：史地生。真是令我哭笑不得。如今期中看来，我似乎有那么一点点偏向“文科型”。特别是物理。从夏令营开始我就已经跟不上物理课的进度，选择更是卡在平均分上下的样子。</p>
+<p>其实这一部分我写的有点乱，语文我自己也思绪不清晰——我自认为应该选物理的，可它现在给了我一槌。究竟是因为我对高一的运动学掌握能力较弱？（初中物理重点是电学）还是我真的不适合物理研究？（详见3）说实话我也不敢下定论。只是如果不选物理，就几乎告别理科了？</p>
+<h4 id="2-综合能力还是硬实力？这也是个问题。"><a href="#2-综合能力还是硬实力？这也是个问题。" class="headerlink" title="2.综合能力还是硬实力？这也是个问题。"></a>2.综合能力还是硬实力？这也是个问题。</h4><p>两个半月了。有幸被选为电视台的小组长，跟高二出了一期节目，自己也带了一期，算是学到了点组织能力和应变能力；虽然没拿到流光咖啡厅的优秀员工，但是工作也开始起色，练到了一点执行力与沟通能力；跟方李濠打了一场班辩，算是正儿八经当了一次辩手，学了不少辩论知识，也学会了合作。我想这些就是我一开始选择它们的原因之一吧：它们对我有一种天生的吸引力，就像原子物理、就像计算机。</p>
+<p>就像上文列举的，它们锻炼了我的综合能力，我觉得这是佛一与我的初中不一样的地方，这才是火山的灵魂，而不是像补学习要抄蓝皮书这样的狗屁规定。可是我发现，课外活动占用的时间，不是最主要耗费的，重要的是，它占用了我的精力。</p>
+<p>相对于这些综合能力来说，学习，或者说学习成绩，就是硬实力。想要混个前二三百应该是不难的，但是要拔尖，就要钻研。而精力是决定钻研效果的重要因素。</p>
+<p>其实经过这两个半月，我的综合能力已经提升不少了。在初中的我似乎甚至没有过teamwork或者public talk的经历，我甚至不是因为心理素质不行，而是生理上的不适应——那种肾上腺素的过量分泌会让你不自觉地手抖（肌肉收缩）和脸红（毛细血管充血），这些我都无法主观控制。可是化学公开课上当我毫无准备地接过麦，我甚至不敢相信我就这么流畅地讲了出来，自然地面对所有人（而且我还没打腹稿）。</p>
+<p>鱼和熊掌不可兼得。一口吃成个大胖子，什么都要显然是不可能的。于是，矛盾、冲突、选择，就产生了。</p>
+<h4 id="3-当坚持初心成为奢侈品"><a href="#3-当坚持初心成为奢侈品" class="headerlink" title="3.当坚持初心成为奢侈品"></a>3.当坚持初心成为奢侈品</h4><p>科研。没错，我从小就是要冲着它去的。甚至于我一度处于黑暗时期的时候，这点初心就成为了唯一的光。</p>
+<p>可是反观如今的基础科学研究环境：导师制演变成家长制作风盛行；底层课题研究充斥着形式主义和“水”；基础科学领域人才资源供远大于求。再看我的状态：目前物理学得一塌糊涂；家里的资产也就普通小康（刷掉了出国和本科后长期经济供给的可能性）；家庭氛围也不尽人意……</p>
+<p>也许目前我的出路就真的只有计算机了，而且是走向工业（商业），而不是学术。也许唯一能给我点劝慰的是：目前是理论科学的冬天，却是应用科学的夏天；而技术大爆炸才能给基础科研提供工具、帮助科学突破瓶颈（前两年诺奖就颁给了冷冻电镜技术）。</p>
+<p>但是今天的“英才计划”的紧急通知却又给我的灯添了点油，也许这是我离科研最近的一次。虽说成绩要求的硬条件达到了，但我却似乎不太符合“学有余力”的条件，我的“学科特长”，即便是拿信息学而言，也就只能在学校内部撑一撑罢了。</p>
+<p>我该怎么办呢？</p>
+<p>流光咖啡厅似乎有一个打理公众号的岗位正在招人，我又应不应该报名呢？</p>
+<p>这么看来我学到的综合能力里还是缺了一点决策力，可是如此纷繁复杂的事情，似乎“大人们”也会头疼吧。</p>
+<h4 id="4-后记与补充"><a href="#4-后记与补充" class="headerlink" title="4.后记与补充"></a>4.后记与补充</h4><p>花了一节晚修来写这个，也算心血来潮吧。还没等成绩全部出来就思如泉涌了。究竟是我想得太多，还是其余的同龄人想得太少呢？不管怎样：</p>
+<p>“莫听穿林打叶声，何妨吟啸且徐行。”</p>
+<h4 id="5-翌日补充：再谈补学习"><a href="#5-翌日补充：再谈补学习" class="headerlink" title="5.翌日补充：再谈补学习"></a>5.翌日补充：再谈补学习</h4><p>“补学习的初衷是好的，可惜在实践中沦为了形式主义。再到如今，连形式主义的遮羞布都被扯掉了。因为你们已经丢掉了大脑，满眼只有数字。灭六国者，六国也，非秦也；族秦者，秦也，非天下也。嗟乎！后人哀之而不鉴之，以使后人而复哀后人也。再如此下去，火山一中将沦为死火山。”带上<strong>*</strong>五个字，我抄在了我递交上去的抄蓝皮书的作业上。我抄完了，可我真的受不了，太令人作呕了，我必须写点什么，我不会再抄了。</p>
+<h4 id="编录时关于本篇的补充与一点感想："><a href="#编录时关于本篇的补充与一点感想：" class="headerlink" title="编录时关于本篇的补充与一点感想："></a>编录时关于本篇的补充与一点感想：</h4><p>流光的月优秀员工，如今也算是意外地拿到了；电视台二组，终于在校园电视的学期最后一期交了份漂亮的答卷；在班际辩论赛，也和几位同学一起摘下了冠军；头脑一热做的班徽最后被印在了班旗上，班级铭牌是我这一年做过最好看的电子海报；语文课前演讲、心理剧选组长、化学公开课剪的视频，我居然收到了出人意料的热烈反响。就在昨天，我拿着学生手册上一长串给我的他评，心里荡开了无数个涟漪。</p>
+<p>其实除去什么综合能力的不说，在这一年里收获的友谊，才是最令我感到珍贵的吧。用所谓人脉之类的词语来概括，在我看来是功利主义者对这真挚感情最恶毒的玷污。</p>
+<p>我不会细节描写，也没有什么华丽的辞藻。可是向来憎恨形式主义的我，在体制中有了与以往不一样的感觉，这是实实在在的。在大多数人已经戴着手铐起舞的时候，我又有什么能说的呢。唯有两行热泪，热泪！这泪里复杂的成分，连我也不能道出个所以然来。</p>
+<p>也许就像前文所说的一样，它们对我有一种天生的吸引力，我仅仅是因为热爱而选择了这样的道路。我从来没有以功利主义作为出发点去做这些事情，我也从来没有想过我能够在佛一活成如此模样。也许正是因为如此我才有了我的收获吧。我从中所能窥见的一点道理，恰与乔布斯演讲中的一段话有着同样的灵魂：</p>
+<p>You can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something - your gut, destiny, life, karma, whatever. Because believing that the dots will connect down the road, will give you the confidence to follow your heart, even when it leads you off the well-worn path. And that will make all the difference.</p>
+<p>唯有感谢。</p>
+<h3 id="2018年12月1日-星期六-我的杜鹃花"><a href="#2018年12月1日-星期六-我的杜鹃花" class="headerlink" title="2018年12月1日 星期六 我的杜鹃花"></a><em>2018年12月1日 星期六 我的杜鹃花</em></h3><p>好冷。或者只是因为我感冒了。然后气压有点高。体温好像也有点。差不多了。今天好像是我第一次和其他人提起我的“人文主义特性”？好像也是我第一次认识到“明天可能会来，可我不一定会去”的事实。</p>
+<p>其实我以前患上的所有心理疾病，究其根源，都只是来源于一种焦虑，一种对死亡的终极焦虑。可那是一个终极之问，所有人都不愿意面对它，所有人都在拖延。所有人都是木头。所有人都是傻逼。很久以前的某天我忽然发现：只要我不死，这种焦虑不就在根源上消除了吗？于是我开始了解生物科学，我开始把“基因工程” 编入“量子物理”“人工智能”之中，成为我的三大关注对象。于是我开始幻想。开始行走，开始斗争。可我最后结束了幻想。因为所有人都只愿意原地跳，因为我已经开始枯竭。或者也因为某天的某天我又忽然发现：其实我死了倒也没什么关系。于是这种焦虑就被在另一个根源上消除了。于是我开始了另一种幻想。世间一切荣辱成败、是非对错、嬉笑怒骂，无非转瞬之间；弹指一挥，作烟云散。于是我删掉了原来那个游戏。</p>
+<p>不要总是站在云上，那里什么都没有，人间其实很好玩的。</p>
+<p>当然，也许还是失败者的自欺欺人罢了，恰如那句：所有漂泊的人生都梦想着平静、童年、杜鹃花，正如所有平静的人生都幻想着伏特加、乐队和醉生梦死。可谁又何尝不是失败者呢？或者说甚至连失败者都不是呢？他们连游戏都还没开始，就变成了木头，木头，一直都是木头。而我居然学会了和死人交流，太棒了。也许现在看来，唯一可惜的是，我没有写出像“摩星岭的秋”[ 编时注：见“中考前一些突发的想法”三。摩星岭原名碧云峰，是白云山最高峰，海拔382米。《故都的秋》是郁达夫所作散文。其实我并不是很想注释，那只是给木头看的。]这样子的东西来，又或者，其实我已经写出来了。</p>
+<p>欲说还休，却道天凉好个秋。</p>
+<p>十二月一日午夜。</p>
+<h3 id="2019年1月28日-星期一-六分之一"><a href="#2019年1月28日-星期一-六分之一" class="headerlink" title="2019年1月28日 星期一 六分之一"></a><em>2019年1月28日 星期一 六分之一</em></h3><p>做总结是一件很麻烦的事情。</p>
+<p>我最怕麻烦。</p>
+<p>经历了几个小插曲之后，最终还是和我预想的一样，我的高中生活给我带来了极大的转变，而且是正向的转变，而且许多是思想上的转变。“Authority&amp;Competitive”“体制与选择”“互联网之子”云云这些我已经想好题目的文章，应该也永远只有题目了。因为，在高中，那种拿起笔和纸/手机就写的机会越来越少了，我这个写随笔的做法应该也要逐渐式微了。另一方面，也是因为以前说到过的原因——思想稍纵即逝，我已经没有当时那种思如泉涌的思绪了。</p>
+<p>所以就不必总结那些点子了，因为我深知他们已经被固定和内化在了我的思想里面，那就够了。不是非得大声嚷嚷什么才能证明你知道的。</p>
+<p>唯一一点让我不得不记录下来的，是新大门的钥匙，叫哲学。我两年前遗留至今的，关于决定论的答案我还是没有找到，但是我似乎已经不需要去找了，这不是妥协，倒有点像和解，但是是同自己和解。相对主义才是我新的衣服。[ 摘录一段令我印象深刻但未必完全正确的话：还是我来回答吧。哲学是研究四个基本问题以及其说衍生问题的学科。四个基本问题是：宇宙论，灵魂说，空间论，本体论，以及由其衍生(古希腊哲学)人的思维能不能认识这四个问题的(康德)。都2018年了,如果您还有兴趣研究这四个问题及其衍生的相关问题的话，可以考虑读读哲学。毕竟这专业是在逆着资本主义和消费主义的浪潮的。我的意思是说，这专业是很贵的，你很可能花了很多钱和时间成本，最后也不会有一个生命终极意义的答案，走向实用主义，消费主义，存在主义或者荒诞主义。当然，如果你很闲，也很有钱，可以玩玩。——知乎用户：Pavan]</p>
+<p>一月二十八日午后。</p>
+<h3 id="2019年2月2日-星期六-无心插柳柳成荫"><a href="#2019年2月2日-星期六-无心插柳柳成荫" class="headerlink" title="2019年2月2日 星期六 无心插柳柳成荫"></a><em>2019年2月2日 星期六 无心插柳柳成荫</em></h3><p>文学、美术、音乐、电影、摄影，我似乎样样都沾了点儿，这一两年，也算是不知不觉中活成了半个文艺青年的模样吧？但真正的文艺青年，从来不当自己是什么文艺青年。</p>
+<p>书没读几本，倒是喜欢到处写文章骂人，大声嚷嚷，活像个kibitzer，以前乱用的写作技巧，后来在语文课上才知道叫博喻。小学美术课次次拿A+，到现在除了画笑脸连简笔画都画不好，更别提什么构图光影，对着几张破纸瞎谈什么解构主义达达主义，戏谑地说，叫：万物皆可后现代。几年下来歌是听了上万首了，从流行到实验，从民谣到金属，不可谓不杂，虽说各种各样的摇滚是最爱，见得多了也会道点门路来，可惜至今分不清什么黑金死金工业的东西，古典听得也少，最遗憾的是上手只会敲几个动次打次，按几个基本和弦，弹几个哆来咪嗦，半桶水都高估我了。对荧幕有谜之信仰，搞得文艺片没看几部，好不容易有好的剧情片看了想写点什么，提起笔来空流两行泪，长镜头？还是漫威让我最爽。摄影？不会。微单都没碰过[ 现在碰过了。]，拿手机瞎拍，设备不够，构思来凑，构图随天气构，布光看心情布，长曝光这种东西是玩不起了，反正最后拿荒诞主义糊弄人就行。</p>
+<p>罢了，全才和专才的问题从民国争到现在都没有定论，我又怎知？以上种种，无非形式，皆为载体，思想内核才最令我看重，这是我的“形式论”。所以我是从来没有说自己“喜欢看动漫”云云，我爱某些作品，也对某些作品不屑一顾，甚至是感到恶心，产生差异的，不是载体，应是内核。此为同。</p>
+<p>但毕竟不同的载体间还是有差异，我大概是最喜欢电影吧。为什么？“还原”地看，当然是因为它所涵盖的信息量大，画面（即变化的图像，涵盖美术摄影文学云云）、声音（配音、配乐和环境音），仅两者就容纳下了整个世界，表现力不可谓不丰富。常言“文字不死”，是因为思想不死；也说“文字苍白无力”，便是因为载体太过单薄。[ 另一种解释是：遗憾的是，现实面前，再掷地有声的文字也变得苍白无力。它只能点醒在两种价值边缘游移徘徊的人，却难以叫醒沉睡着愚昧的不能开眼看世界的人。本质上，你能不能说服一个人，是由那个人决定的。文字只是必要非充分条件。——我于2019/02/14]此为异。</p>
+<p>所以，非要给我贴上个“文艺青年”的标签，我不算是很抗拒的；但我之所以发挥着我的价值，不是因为我现在正在写着这么一篇烂文章，而是因为我的思想闪着金光。奈万物变更，思想永存。</p>
+<p>大抵如此。二月二日凌晨。腊月廿八，快过年咯。</p>
+<hr>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a><strong>结语</strong></h2><p><strong>喜欢养狗，不爱洗头，四体不勤，五谷不分，文不能测字，武不能防身；好写杂文骂人，语文不及格，常读科学知识，物理吊车尾；东张西望，一无所长，敌视现实，虚构远方，不甘狗苟蝇营，不料踟蹰难行；少许文人风骨，心系天下事，却有理想主义，魂究物本源。</strong></p>
+<p><strong>十六载有余，方知大梦一场：自恃清高，不过犬儒。但行好事，莫问前路，惟少年心气不改，头比南墙坚。</strong></p>
+<p><em>第一次编录于二零一九年二月十六日午后。</em></p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/03/19/内核是孤独/" rel="next" title="内核是孤独">
+                <i class="fa fa-chevron-left"></i> 内核是孤独
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="https://y.gtimg.cn/music/photo_new/T002R300x300M000001HU79H0BHu6T.jpg"
+                alt="Aaron Chan" />
+            
+              <p class="site-author-name" itemprop="name">Aaron Chan</p>
+              <p class="site-description motion-element" itemprop="description">听从你心 但求真实 无问西东</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">46</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/aaronchanix" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:AaronChanIX@foxmail.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="http://wpa.qq.com/msgrd?v=3&uin=2691907354&site=qq&menu=yes" target="_blank" title="QQ"><i class="fa fa-fw fa-qq"></i>QQ</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://www.zhihu.com/people/kuai-le-xian-yu-mei-yi-tian" target="_blank" title="知乎"><i class="fa fa-fw fa-globe"></i>知乎</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#引言"><span class="nav-number">1.</span> <span class="nav-text">引言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#前传：在人间"><span class="nav-number">2.</span> <span class="nav-text">前传：在人间</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2018年4月20日-星期五-平庸与卓越"><span class="nav-number">2.1.</span> <span class="nav-text">2018年4月20日 星期五 平庸与卓越</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2018年5月6日-星期一-答案"><span class="nav-number">2.2.</span> <span class="nav-text">2018年5月6日 星期一 答案</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2018年6月20日-星期三-中考前一些突发的想法"><span class="nav-number">2.3.</span> <span class="nav-text">2018年6月20日 星期三 中考前一些突发的想法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#一"><span class="nav-number">2.3.1.</span> <span class="nav-text">一</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#二"><span class="nav-number">2.3.2.</span> <span class="nav-text">二</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三"><span class="nav-number">2.3.3.</span> <span class="nav-text">三</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#四"><span class="nav-number">2.3.4.</span> <span class="nav-text">四</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#五"><span class="nav-number">2.3.5.</span> <span class="nav-text">五</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#高一：大梦一场"><span class="nav-number">3.</span> <span class="nav-text">高一：大梦一场</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2018年9月1日-星期六-军训总结"><span class="nav-number">3.1.</span> <span class="nav-text">2018年9月1日 星期六 军训总结</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#写在前面"><span class="nav-number">3.1.1.</span> <span class="nav-text">写在前面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#就像一所大学"><span class="nav-number">3.1.2.</span> <span class="nav-text">就像一所大学</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2018年11月16日-星期五-期中考总结：选择"><span class="nav-number">3.2.</span> <span class="nav-text">2018年11月16日 星期五 期中考总结：选择</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-文还是理？这是个问题。"><span class="nav-number">3.2.1.</span> <span class="nav-text">1.文还是理？这是个问题。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-综合能力还是硬实力？这也是个问题。"><span class="nav-number">3.2.2.</span> <span class="nav-text">2.综合能力还是硬实力？这也是个问题。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-当坚持初心成为奢侈品"><span class="nav-number">3.2.3.</span> <span class="nav-text">3.当坚持初心成为奢侈品</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-后记与补充"><span class="nav-number">3.2.4.</span> <span class="nav-text">4.后记与补充</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-翌日补充：再谈补学习"><span class="nav-number">3.2.5.</span> <span class="nav-text">5.翌日补充：再谈补学习</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#编录时关于本篇的补充与一点感想："><span class="nav-number">3.2.6.</span> <span class="nav-text">编录时关于本篇的补充与一点感想：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2018年12月1日-星期六-我的杜鹃花"><span class="nav-number">3.3.</span> <span class="nav-text">2018年12月1日 星期六 我的杜鹃花</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2019年1月28日-星期一-六分之一"><span class="nav-number">3.4.</span> <span class="nav-text">2019年1月28日 星期一 六分之一</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2019年2月2日-星期六-无心插柳柳成荫"><span class="nav-number">3.5.</span> <span class="nav-text">2019年2月2日 星期六 无心插柳柳成荫</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结语"><span class="nav-number">4.</span> <span class="nav-text">结语</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+	 
+	 </br>
+	 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=419238636&auto=0&height=66"></iframe>
+	 
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?bdb02bb14680a94ada1d6d1a49038fb5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+  本站访客数:<span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
+
+<div class="copyright">&copy; 2018 &mdash; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Aaron Chan</span>
+
+  
+
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a> v6.0.4</div>
+
+
+
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">|&emsp;博客全站共43.3k字</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.0.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.0.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.0.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.0.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.0.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.0.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.0.4"></script>
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+<div id="hexo-helper-live2d">
+  <canvas id="live2dcanvas" width="150" height="300"></canvas>
+</div>
+<style>
+  #live2dcanvas{
+    position: fixed;
+    width: 150px;
+    height: 300px;
+    opacity:0.7;
+    right: 0px;
+    z-index: 999;
+    pointer-events: none;
+    bottom: -20px;
+  }
+</style>
+<script type="text/javascript" src="/live2d/device.min.js"></script>
+<script type="text/javascript">
+const loadScript = function loadScript(c,b){var a=document.createElement("script");a.type="text/javascript";"undefined"!=typeof b&&(a.readyState?a.onreadystatechange=function(){if("loaded"==a.readyState||"complete"==a.readyState)a.onreadystatechange=null,b()}:a.onload=function(){b()});a.src=c;document.body.appendChild(a)};
+(function(){
+  if((typeof(device) != 'undefined') && (device.mobile())){
+    var trElement = document.getElementById('hexo-helper-live2d');
+    trElement.parentNode.removeChild(trElement);
+    return;
+  }else
+    if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
+  loadScript("/live2d/script.js", function(){loadlive2d("live2dcanvas", "/live2d/assets/wanko.model.json", 0.5);});
+})();
+</script>
+
+</body>
+</html>
+<script type="text/javascript" src="/js/src/love.js"></script>
