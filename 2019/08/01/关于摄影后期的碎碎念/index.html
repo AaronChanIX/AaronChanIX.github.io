@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+
+
+
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.0.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.0.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.0.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.0.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.0.4" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '6.0.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  
+  <meta name="keywords" content="日常,随笔," />
+
+
+<meta name="description" content="零，那图也不真实，真正在现场所看到的水面的应该更绿，这个偏青/蓝；一，显而易见，我们是朝着让照片更好的方向在努力。接下来要讨论的就是，如何才是“好”的照片后期目标：调出真实的照片?美的照片?能表达作者情绪的照片?能吓到人的照片?能吸引人眼球的照片?有政治隐喻和诉求的照片?能进行学术探讨和理论创新的照片? 要真做到了，他们就都是“好”的照片。 在我们日常生活照、旅游风景照的后期讨论范围内，一般情况下">
+<meta name="keywords" content="日常,随笔">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于摄影后期的碎碎念">
+<meta property="og:url" content="http://aaronchanix.github.io/2019/08/01/关于摄影后期的碎碎念/index.html">
+<meta property="og:site_name" content="AaronChanIX">
+<meta property="og:description" content="零，那图也不真实，真正在现场所看到的水面的应该更绿，这个偏青/蓝；一，显而易见，我们是朝着让照片更好的方向在努力。接下来要讨论的就是，如何才是“好”的照片后期目标：调出真实的照片?美的照片?能表达作者情绪的照片?能吓到人的照片?能吸引人眼球的照片?有政治隐喻和诉求的照片?能进行学术探讨和理论创新的照片? 要真做到了，他们就都是“好”的照片。 在我们日常生活照、旅游风景照的后期讨论范围内，一般情况下">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-08-07T21:01:28.570Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="关于摄影后期的碎碎念">
+<meta name="twitter:description" content="零，那图也不真实，真正在现场所看到的水面的应该更绿，这个偏青/蓝；一，显而易见，我们是朝着让照片更好的方向在努力。接下来要讨论的就是，如何才是“好”的照片后期目标：调出真实的照片?美的照片?能表达作者情绪的照片?能吓到人的照片?能吸引人眼球的照片?有政治隐喻和诉求的照片?能进行学术探讨和理论创新的照片? 要真做到了，他们就都是“好”的照片。 在我们日常生活照、旅游风景照的后期讨论范围内，一般情况下">
+
+
+
+
+
+
+  <link rel="canonical" href="http://aaronchanix.github.io/2019/08/01/关于摄影后期的碎碎念/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+  <title>关于摄影后期的碎碎念 | AaronChanIX</title>
+  
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"> <div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">AaronChanIX</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Aaron Chan's Blog</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+  
+
+
+
+ </div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://aaronchanix.github.io/2019/08/01/关于摄影后期的碎碎念/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Aaron Chan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://y.gtimg.cn/music/photo_new/T002R300x300M000001HU79H0BHu6T.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="AaronChanIX">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">关于摄影后期的碎碎念</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-08-01T01:19:52+08:00">2019-08-01</time>
+            
+
+            
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/随笔/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="零，那图也不真实，真正在现场所看到的水面的应该更绿，这个偏青-蓝；"><a href="#零，那图也不真实，真正在现场所看到的水面的应该更绿，这个偏青-蓝；" class="headerlink" title="零，那图也不真实，真正在现场所看到的水面的应该更绿，这个偏青/蓝；"></a>零，那图也不真实，真正在现场所看到的水面的应该更绿，这个偏青/蓝；</h2><p>一，显而易见，我们是朝着让照片更好的方向在努力。接下来要讨论的就是，如何才是“好”的照片后期目标：调出真实的照片?美的照片?能表达作者情绪的照片?能吓到人的照片?能吸引人眼球的照片?有政治隐喻和诉求的照片?能进行学术探讨和理论创新的照片? 要真做到了，他们就都是“好”的照片。</p>
+<h2 id="在我们日常生活照、旅游风景照的后期讨论范围内，一般情况下只需要考虑前两者。先锋派的实验艺术、对旧有理论和观念的冲击与革新固然有其价值，但先按下不表。"><a href="#在我们日常生活照、旅游风景照的后期讨论范围内，一般情况下只需要考虑前两者。先锋派的实验艺术、对旧有理论和观念的冲击与革新固然有其价值，但先按下不表。" class="headerlink" title="在我们日常生活照、旅游风景照的后期讨论范围内，一般情况下只需要考虑前两者。先锋派的实验艺术、对旧有理论和观念的冲击与革新固然有其价值，但先按下不表。"></a>在我们日常生活照、旅游风景照的后期讨论范围内，一般情况下只需要考虑前两者。先锋派的实验艺术、对旧有理论和观念的冲击与革新固然有其价值，但先按下不表。</h2><p>二，知乎答案已经证明过（1.原片就已经和现场不一样 2.通过后期将原片变得看起来和现场一样，需要现场作参考，参考不可能留存），成片不可能真实。</p>
+<p>原片已经扮演了真实（记录生活）的角色。</p>
+<h2 id="现场→原片→成片"><a href="#现场→原片→成片" class="headerlink" title="[现场→原片→成片]"></a>[现场→原片→成片]</h2><p>三，不否认主观喜恶的存在，但艺术是有客观评价标准（美学）的，甚至这一标准就是现时业内普遍的主观喜恶。</p>
+<h2 id="学摄影、海报设计、绘画什么都好，甚至是写文章写诗，先要做的应该是“学会审美”：要先知道-what-is-beauty-和学会-judge-if-sth-is-beautiful，才有可能创作出美的作品（排除无限猴子）；然后再去学习how-to-bring-your-artwork-closer-to-beauty。（阿我这里第一反应想到的是-approach-但是不知道怎么用…-词汇课没学好的痛）"><a href="#学摄影、海报设计、绘画什么都好，甚至是写文章写诗，先要做的应该是“学会审美”：要先知道-what-is-beauty-和学会-judge-if-sth-is-beautiful，才有可能创作出美的作品（排除无限猴子）；然后再去学习how-to-bring-your-artwork-closer-to-beauty。（阿我这里第一反应想到的是-approach-但是不知道怎么用…-词汇课没学好的痛）" class="headerlink" title="学摄影、海报设计、绘画什么都好，甚至是写文章写诗，先要做的应该是“学会审美”：要先知道 what is beauty 和学会 judge if sth is beautiful，才有可能创作出美的作品（排除无限猴子）；然后再去学习how to bring your artwork closer to beauty。（阿我这里第一反应想到的是 approach 但是不知道怎么用… 词汇课没学好的痛）"></a>学摄影、海报设计、绘画什么都好，甚至是写文章写诗，先要做的应该是“学会审美”：要先知道 what is beauty 和学会 judge if sth is beautiful，才有可能创作出美的作品（排除无限猴子）；然后再去学习how to bring your artwork closer to beauty。（阿我这里第一反应想到的是 approach 但是不知道怎么用… 词汇课没学好的痛）</h2><p>二（不可能真实、原片能满足记录生活的需求）加三（照片的质量是有客观评价标准的），进而推出：</p>
+<p>四，我们要以让照片更美作为目的来后期，像画画一样产出摄影作品，像写诗一样产出摄影作品，像雕石头一样产出摄影作品。判断一张照片的优劣，是有方法的。其实我调色的时候就是在尝试展现照片更多的“细节”（减弱高光增强阴影），大佬们还会看RGB直方图，尽可能让色彩分布在中间调（单峰）（当然有时候想要强调明暗对比，就尽量让它分布在两侧，双峰）（现在流行的夜景风格就是高光橙黄阴影青蓝的橙青色调）（md我觉得你肯定都听不到，反正我随便鬼扯一些就好了）。</p>
+<h2 id="但是我们也可以像一个正常人一样拍照，来记录生活，其实我很多东西都是随手拍，手机里一堆废片（不能产出一张佳作的原片），以后都会存到硬盘里，当做纪念。朋友圈里发出来和没有发出来的照片比甚至能去到10：1。宁缺毋滥。"><a href="#但是我们也可以像一个正常人一样拍照，来记录生活，其实我很多东西都是随手拍，手机里一堆废片（不能产出一张佳作的原片），以后都会存到硬盘里，当做纪念。朋友圈里发出来和没有发出来的照片比甚至能去到10：1。宁缺毋滥。" class="headerlink" title="但是我们也可以像一个正常人一样拍照，来记录生活，其实我很多东西都是随手拍，手机里一堆废片（不能产出一张佳作的原片），以后都会存到硬盘里，当做纪念。朋友圈里发出来和没有发出来的照片比甚至能去到10：1。宁缺毋滥。"></a>但是我们也可以像一个正常人一样拍照，来记录生活，其实我很多东西都是随手拍，手机里一堆废片（不能产出一张佳作的原片），以后都会存到硬盘里，当做纪念。朋友圈里发出来和没有发出来的照片比甚至能去到10：1。宁缺毋滥。</h2><p>补充：</p>
+<p>总起/标题：</p>
+<p>我们为何要后期? // 我们在后期时，实际上是朝着让照片更（     ）的方向努力?  // What is the state to which we want to bring our work closer while we are 后期ing ?</p>
+<p>结语：</p>
+<p>真正美的东西，是要用心才能看到的。你需要真正来到现场，用尽躯体的一切知觉去感受，进行一次完全沉浸式的体验，才能给你一种难以磨灭和形容的心灵上的印象。</p>
+<p>分析自己的调色问题：</p>
+<p>青橙色调很熟练了，以至于现在阴影不知道加什么就无脑青（逃）。要避免套路化和重复化。</p>
+<p>必须要认识到“真实感”也是评判照片是否“美”的一部分，如果调出来感觉很假，像那种无脑套滤镜，搞得天都是绿色的，它不美的原因就是因为它太假。但“有后期过的痕迹”，这并不是什么需要严肃批判的东西。换句话说，那都不是事儿。</p>
+<p>八月一日凌晨。錒狗。</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/日常/" rel="tag"><i class="fa fa-tag"></i> 日常</a>
+          
+            <a href="/tags/随笔/" rel="tag"><i class="fa fa-tag"></i> 随笔</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/07/31/一些补充和总结/" rel="next" title="对部分手稿的补充和阶段性小结">
+                <i class="fa fa-chevron-left"></i> 对部分手稿的补充和阶段性小结
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/08/05/Eternity/" rel="prev" title="理性的陨落/Eternity">
+                理性的陨落/Eternity <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="https://y.gtimg.cn/music/photo_new/T002R300x300M000001HU79H0BHu6T.jpg"
+                alt="Aaron Chan" />
+            
+              <p class="site-author-name" itemprop="name">Aaron Chan</p>
+              <p class="site-description motion-element" itemprop="description">INFJ/ENFJ/INTP</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">58</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">8</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/aaronchanix" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:AaronChanIX@foxmail.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="http://wpa.qq.com/msgrd?v=3&uin=2691907354&site=qq&menu=yes" target="_blank" title="QQ"><i class="fa fa-fw fa-qq"></i>QQ</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://www.zhihu.com/people/kuai-le-xian-yu-mei-yi-tian" target="_blank" title="知乎"><i class="fa fa-fw fa-globe"></i>知乎</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#零，那图也不真实，真正在现场所看到的水面的应该更绿，这个偏青-蓝；"><span class="nav-number">1.</span> <span class="nav-text">零，那图也不真实，真正在现场所看到的水面的应该更绿，这个偏青/蓝；</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在我们日常生活照、旅游风景照的后期讨论范围内，一般情况下只需要考虑前两者。先锋派的实验艺术、对旧有理论和观念的冲击与革新固然有其价值，但先按下不表。"><span class="nav-number">2.</span> <span class="nav-text">在我们日常生活照、旅游风景照的后期讨论范围内，一般情况下只需要考虑前两者。先锋派的实验艺术、对旧有理论和观念的冲击与革新固然有其价值，但先按下不表。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#现场→原片→成片"><span class="nav-number">3.</span> <span class="nav-text">[现场→原片→成片]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#学摄影、海报设计、绘画什么都好，甚至是写文章写诗，先要做的应该是“学会审美”：要先知道-what-is-beauty-和学会-judge-if-sth-is-beautiful，才有可能创作出美的作品（排除无限猴子）；然后再去学习how-to-bring-your-artwork-closer-to-beauty。（阿我这里第一反应想到的是-approach-但是不知道怎么用…-词汇课没学好的痛）"><span class="nav-number">4.</span> <span class="nav-text">学摄影、海报设计、绘画什么都好，甚至是写文章写诗，先要做的应该是“学会审美”：要先知道 what is beauty 和学会 judge if sth is beautiful，才有可能创作出美的作品（排除无限猴子）；然后再去学习how to bring your artwork closer to beauty。（阿我这里第一反应想到的是 approach 但是不知道怎么用… 词汇课没学好的痛）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#但是我们也可以像一个正常人一样拍照，来记录生活，其实我很多东西都是随手拍，手机里一堆废片（不能产出一张佳作的原片），以后都会存到硬盘里，当做纪念。朋友圈里发出来和没有发出来的照片比甚至能去到10：1。宁缺毋滥。"><span class="nav-number">5.</span> <span class="nav-text">但是我们也可以像一个正常人一样拍照，来记录生活，其实我很多东西都是随手拍，手机里一堆废片（不能产出一张佳作的原片），以后都会存到硬盘里，当做纪念。朋友圈里发出来和没有发出来的照片比甚至能去到10：1。宁缺毋滥。</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+	 
+	 </br>
+	 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2061874024&auto=0&height=66"></iframe>
+	 
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?bdb02bb14680a94ada1d6d1a49038fb5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+  本站访客数:<span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
+
+<div class="copyright">&copy; 2018 &mdash; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Aaron Chan</span>
+
+  
+
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a> v6.0.4</div>
+
+
+
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">|&emsp;博客全站共69.4k字</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.0.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.0.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.0.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.0.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.0.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.0.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.0.4"></script>
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+<div id="hexo-helper-live2d">
+  <canvas id="live2dcanvas" width="150" height="300"></canvas>
+</div>
+<style>
+  #live2dcanvas{
+    position: fixed;
+    width: 150px;
+    height: 300px;
+    opacity:0.7;
+    right: 0px;
+    z-index: 999;
+    pointer-events: none;
+    bottom: -20px;
+  }
+</style>
+<script type="text/javascript" src="/live2d/device.min.js"></script>
+<script type="text/javascript">
+const loadScript = function loadScript(c,b){var a=document.createElement("script");a.type="text/javascript";"undefined"!=typeof b&&(a.readyState?a.onreadystatechange=function(){if("loaded"==a.readyState||"complete"==a.readyState)a.onreadystatechange=null,b()}:a.onload=function(){b()});a.src=c;document.body.appendChild(a)};
+(function(){
+  if((typeof(device) != 'undefined') && (device.mobile())){
+    var trElement = document.getElementById('hexo-helper-live2d');
+    trElement.parentNode.removeChild(trElement);
+    return;
+  }else
+    if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
+  loadScript("/live2d/script.js", function(){loadlive2d("live2dcanvas", "/live2d/assets/wanko.model.json", 0.5);});
+})();
+</script>
+
+</body>
+</html>
+<script type="text/javascript" src="/js/src/love.js"></script>
